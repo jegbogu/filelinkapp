@@ -4,7 +4,7 @@ const {Schema} = mongoose
 const imgData = new Schema({
     image: [
         {
-            url: String,
+            path: String,
             filename: String,
         } 
     ]
